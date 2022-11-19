@@ -1,1 +1,26 @@
-.cat
+*{
+ padding:0%;
+ margin: 0%;
+}
+body{
+ background-image: url(./fondo.webp);
+}
+.contenedor{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    margin-top: 39%;
+}
+
+.cat{
+   width: 100%;
+   height: 100%;
+   position: relative;
+   transform: translate (10px,50px);
+}
+.dog{
+    width: 100%;
+    height: 100%;
+    position: relative;
+   transform: translate (100px,50px);
+}
